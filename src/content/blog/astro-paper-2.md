@@ -16,7 +16,7 @@ Astro 2.0 has been released with some cool features, breaking changes, DX improv
 
 # Tabla de contenidos
 
-![](/Logo-test.png)
+![](/assets/dev.svg)
 
 ## Features & Changes
 
