@@ -14,11 +14,9 @@ description: AstroPaper with the enhancements of Astro v2. Type-safe markdown
 ---
 Astro 2.0 has been released with some cool features, breaking changes, DX improvements, better error overlay and so on. AstroPaper takes advantage of those cool features, especially Content Collections API.
 
+# Tabla de contenidos
 
-
-## Table of contents
-
-![dwad](/astropaper-og.jpg)
+![](/Logo-test.png)
 
 ## Features & Changes
 
