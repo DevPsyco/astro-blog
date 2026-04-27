@@ -16,8 +16,6 @@ Astro 2.0 has been released with some cool features, breaking changes, DX improv
 
 
 
-![Introducing AstroPaper 2.0](https://user-images.githubusercontent.com/53733092/215771435-25408246-2309-4f8b-a781-1f3d93bdf0ec.png)
-
 ![](/assets/hero-image.DRPoHq2O.avif)
 
 ## Table of contents
@@ -85,7 +83,7 @@ AstroPaper v2 has a new dark color scheme (high contrast & low contrast) which i
 
 AstroPaper 2.0 includes automatic class sorting with [TailwindCSS Prettier plugin](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier)
 
-### Updated Docs & README
+### Updated Docs & README tyes
 
 All the [#docs](https://astro-paper.pages.dev/tags/docs/) blog posts and [README](https://github.com/satnaing/astro-paper#readme) are updated for this AstroPaper v2.
 
