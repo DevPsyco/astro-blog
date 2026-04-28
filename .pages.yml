@@ -1,6 +1,7 @@
 media:
-  input: public
-  output: /
+  input: public/uploads/images
+  output: /uploads/images
+
 content:
   - name: posts
     label: Posts
@@ -13,13 +14,17 @@ content:
       - { name: pubDatetime, label: Date, type: date }
       - { name: modDatetime, label: Date, type: date }
       - { name: title, label: Title, type: string, required: true }
-      - { name: ogImage, label: Title, type: string }
+      - name: heroImage
+        label: Imagen destacada
+        type: image
+      - { name: ogImage, label: OG Image URL, type: string }
       - { name: slug, label: Slug, type: string }
       - { name: featured, label: Featured, type: boolean }
       - { name: draft, label: Draft, type: boolean }
       - { name: tags, label: Tags, type: string, list: true }
       - { name: description, label: Description, type: string }
       - { name: body, label: Body, type: rich-text }
+
   - name: about
     label: About page
     type: file
@@ -27,4 +32,4 @@ content:
     fields:
       - { name: layout, type: string, hidden: true, default: "../layouts/AboutLayout.astro" }
       - { name: title, label: Title, type: string }
-      - { name: body, label: Body, type: rich-text, options: { input: public/assets, output: /assets } }
+      - { name: body, label: Body, type: rich-text }
