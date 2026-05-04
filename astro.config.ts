@@ -8,6 +8,7 @@ import { SITE } from "./src/config";
 
 // https://astro.build/config
 export default defineConfig({
+  output: 'static',
   site: SITE.website,
   base: "/astro-blog",
   integrations: [
